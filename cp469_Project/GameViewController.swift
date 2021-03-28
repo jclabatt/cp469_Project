@@ -11,34 +11,33 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        if #available(iOS 11.0, *), let view = self.view     {
+           view.frame = self.view.safeAreaLayoutGuide.layoutFrame
+        }
+        guard let view = self.view as! SKView? else { return }
+        view.translatesAutoresizingMaskIntoConstraints = false // this is the line that stops the constraints from stacking. super important
+        view.ignoresSiblingOrder = true
+        view.showsFPS = true
+        view.showsNodeCount = true
+        view.showsPhysics = true
+        //view.showsDrawCount = true
+        let scene = GameScene(size:view.bounds.size)
+        scene.scaleMode = .aspectFill
+        view.presentScene(scene)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Load 'GameScene.sks' as a GKScene. This provides gameplay related content
-        // including entities and graphs.
-        if let scene = GKScene(fileNamed: "GameScene") {
-            
-            // Get the SKScene from the loaded GKScene
-            if let sceneNode = scene.rootNode as! GameScene? {
-                
-                // Copy gameplay related content over to the scene
-                sceneNode.entities = scene.entities
-                sceneNode.graphs = scene.graphs
-                
-                // Set the scale mode to scale to fit the window
-                sceneNode.scaleMode = .aspectFill
-                
-                // Present the scene
-                if let view = self.view as! SKView? {
-                    view.presentScene(sceneNode)
-                    
-                    view.ignoresSiblingOrder = true
-                    
-                    view.showsFPS = true
-                    view.showsNodeCount = true
-                }
-            }
-        }
+//        let scene = StartScene( size: view.bounds.size)
+//        let skView = view as! SKView
+//        skView.showsFPS = true ;
+//        skView.showsNodeCount = true;
+//        skView.ignoresSiblingOrder = true;
+//        scene.scaleMode = .resizeFill
+//        skView.presentScene(scene)
+        
     }
 
     override var shouldAutorotate: Bool {

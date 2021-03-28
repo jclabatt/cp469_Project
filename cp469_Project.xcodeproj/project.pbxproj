@@ -16,6 +16,35 @@
 		FAFA046E260FE80F008D3E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFA046D260FE80F008D3E8F /* Assets.xcassets */; };
 		FAFA0479260FE80F008D3E8F /* cp469_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA0478260FE80F008D3E8F /* cp469_ProjectTests.swift */; };
 		FAFA0484260FE80F008D3E8F /* cp469_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA0483260FE80F008D3E8F /* cp469_ProjectUITests.swift */; };
+		FAFA049526100196008D3E8F /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA049426100196008D3E8F /* PhysicsCategory.swift */; };
+		FAFA04B72610026D008D3E8F /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA049A2610026D008D3E8F /* left-arrow.png */; };
+		FAFA04B82610026D008D3E8F /* scream.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA049B2610026D008D3E8F /* scream.png */; };
+		FAFA04B92610026D008D3E8F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA049C2610026D008D3E8F /* Spaceship.png */; };
+		FAFA04BA2610026D008D3E8F /* bullet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAFA049D2610026D008D3E8F /* bullet.jpeg */; };
+		FAFA04BB2610026D008D3E8F /* space-invader-small.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA049E2610026D008D3E8F /* space-invader-small.png */; };
+		FAFA04BC2610026D008D3E8F /* defenderBullet2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA049F2610026D008D3E8F /* defenderBullet2.png */; };
+		FAFA04BD2610026D008D3E8F /* shelter2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A02610026D008D3E8F /* shelter2.png */; };
+		FAFA04BE2610026D008D3E8F /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A12610026D008D3E8F /* right-arrow.png */; };
+		FAFA04BF2610026D008D3E8F /* rock.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A22610026D008D3E8F /* rock.png */; };
+		FAFA04C02610026D008D3E8F /* goBack.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A32610026D008D3E8F /* goBack.png */; };
+		FAFA04C12610026D008D3E8F /* StopMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A42610026D008D3E8F /* StopMusic.png */; };
+		FAFA04C22610026D008D3E8F /* spaceinvaders-background.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A62610026D008D3E8F /* spaceinvaders-background.mp3 */; };
+		FAFA04C32610026D008D3E8F /* artillery2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A72610026D008D3E8F /* artillery2.m4a */; };
+		FAFA04C42610026D008D3E8F /* crash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A82610026D008D3E8F /* crash.mp3 */; };
+		FAFA04C52610026D008D3E8F /* invaderkilled.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04A92610026D008D3E8F /* invaderkilled.wav */; };
+		FAFA04C62610026D008D3E8F /* crash.caf in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04AA2610026D008D3E8F /* crash.caf */; };
+		FAFA04C72610026D008D3E8F /* fastinvader1.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04AB2610026D008D3E8F /* fastinvader1.wav */; };
+		FAFA04C82610026D008D3E8F /* scream.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04AC2610026D008D3E8F /* scream.mp3 */; };
+		FAFA04C92610026D008D3E8F /* fastinvader3.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04AD2610026D008D3E8F /* fastinvader3.wav */; };
+		FAFA04CA2610026D008D3E8F /* bullet-small.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04AE2610026D008D3E8F /* bullet-small.jpeg */; };
+		FAFA04CB2610026D008D3E8F /* PlayMusic.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04AF2610026D008D3E8F /* PlayMusic.png */; };
+		FAFA04CC2610026D008D3E8F /* bullet-unit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04B02610026D008D3E8F /* bullet-unit.jpeg */; };
+		FAFA04CD2610026D008D3E8F /* right-arrow-unit.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04B12610026D008D3E8F /* right-arrow-unit.png */; };
+		FAFA04CE2610026D008D3E8F /* defender2.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04B22610026D008D3E8F /* defender2.png */; };
+		FAFA04CF2610026D008D3E8F /* explosion-small.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04B32610026D008D3E8F /* explosion-small.png */; };
+		FAFA04D02610026D008D3E8F /* left-arrow-unit.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04B42610026D008D3E8F /* left-arrow-unit.png */; };
+		FAFA04D12610026D008D3E8F /* InstructionButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04B52610026D008D3E8F /* InstructionButton.png */; };
+		FAFA04D22610026D008D3E8F /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FAFA04B62610026D008D3E8F /* PlayButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +80,35 @@
 		FAFA047F260FE80F008D3E8F /* cp469_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cp469_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA0483260FE80F008D3E8F /* cp469_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cp469_ProjectUITests.swift; sourceTree = "<group>"; };
 		FAFA0485260FE80F008D3E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFA049426100196008D3E8F /* PhysicsCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
+		FAFA049A2610026D008D3E8F /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		FAFA049B2610026D008D3E8F /* scream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scream.png; sourceTree = "<group>"; };
+		FAFA049C2610026D008D3E8F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		FAFA049D2610026D008D3E8F /* bullet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullet.jpeg; sourceTree = "<group>"; };
+		FAFA049E2610026D008D3E8F /* space-invader-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-invader-small.png"; sourceTree = "<group>"; };
+		FAFA049F2610026D008D3E8F /* defenderBullet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defenderBullet2.png; sourceTree = "<group>"; };
+		FAFA04A02610026D008D3E8F /* shelter2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shelter2.png; sourceTree = "<group>"; };
+		FAFA04A12610026D008D3E8F /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		FAFA04A22610026D008D3E8F /* rock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rock.png; sourceTree = "<group>"; };
+		FAFA04A32610026D008D3E8F /* goBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goBack.png; sourceTree = "<group>"; };
+		FAFA04A42610026D008D3E8F /* StopMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StopMusic.png; sourceTree = "<group>"; };
+		FAFA04A62610026D008D3E8F /* spaceinvaders-background.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "spaceinvaders-background.mp3"; sourceTree = "<group>"; };
+		FAFA04A72610026D008D3E8F /* artillery2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = artillery2.m4a; sourceTree = "<group>"; };
+		FAFA04A82610026D008D3E8F /* crash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crash.mp3; sourceTree = "<group>"; };
+		FAFA04A92610026D008D3E8F /* invaderkilled.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = invaderkilled.wav; sourceTree = "<group>"; };
+		FAFA04AA2610026D008D3E8F /* crash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = crash.caf; sourceTree = "<group>"; };
+		FAFA04AB2610026D008D3E8F /* fastinvader1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fastinvader1.wav; sourceTree = "<group>"; };
+		FAFA04AC2610026D008D3E8F /* scream.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = scream.mp3; sourceTree = "<group>"; };
+		FAFA04AD2610026D008D3E8F /* fastinvader3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fastinvader3.wav; sourceTree = "<group>"; };
+		FAFA04AE2610026D008D3E8F /* bullet-small.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bullet-small.jpeg"; sourceTree = "<group>"; };
+		FAFA04AF2610026D008D3E8F /* PlayMusic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayMusic.png; sourceTree = "<group>"; };
+		FAFA04B02610026D008D3E8F /* bullet-unit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bullet-unit.jpeg"; sourceTree = "<group>"; };
+		FAFA04B12610026D008D3E8F /* right-arrow-unit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow-unit.png"; sourceTree = "<group>"; };
+		FAFA04B22610026D008D3E8F /* defender2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defender2.png; sourceTree = "<group>"; };
+		FAFA04B32610026D008D3E8F /* explosion-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "explosion-small.png"; sourceTree = "<group>"; };
+		FAFA04B42610026D008D3E8F /* left-arrow-unit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow-unit.png"; sourceTree = "<group>"; };
+		FAFA04B52610026D008D3E8F /* InstructionButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstructionButton.png; sourceTree = "<group>"; };
+		FAFA04B62610026D008D3E8F /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				FAFA0460260FE80E008D3E8F /* AppDelegate.swift */,
+				FAFA04992610026D008D3E8F /* resources */,
 				FAFA0462260FE80E008D3E8F /* GameScene.sks */,
 				FAFA0464260FE80E008D3E8F /* Actions.sks */,
+				FAFA049426100196008D3E8F /* PhysicsCategory.swift */,
 				FAFA0466260FE80E008D3E8F /* GameScene.swift */,
 				FAFA0468260FE80E008D3E8F /* GameViewController.swift */,
 				FAFA046A260FE80E008D3E8F /* Main.storyboard */,
@@ -129,6 +189,49 @@
 				FAFA0485260FE80F008D3E8F /* Info.plist */,
 			);
 			path = cp469_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		FAFA04992610026D008D3E8F /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA049A2610026D008D3E8F /* left-arrow.png */,
+				FAFA049B2610026D008D3E8F /* scream.png */,
+				FAFA049C2610026D008D3E8F /* Spaceship.png */,
+				FAFA049D2610026D008D3E8F /* bullet.jpeg */,
+				FAFA049E2610026D008D3E8F /* space-invader-small.png */,
+				FAFA049F2610026D008D3E8F /* defenderBullet2.png */,
+				FAFA04A02610026D008D3E8F /* shelter2.png */,
+				FAFA04A12610026D008D3E8F /* right-arrow.png */,
+				FAFA04A22610026D008D3E8F /* rock.png */,
+				FAFA04A32610026D008D3E8F /* goBack.png */,
+				FAFA04A42610026D008D3E8F /* StopMusic.png */,
+				FAFA04A52610026D008D3E8F /* Sounds */,
+				FAFA04AE2610026D008D3E8F /* bullet-small.jpeg */,
+				FAFA04AF2610026D008D3E8F /* PlayMusic.png */,
+				FAFA04B02610026D008D3E8F /* bullet-unit.jpeg */,
+				FAFA04B12610026D008D3E8F /* right-arrow-unit.png */,
+				FAFA04B22610026D008D3E8F /* defender2.png */,
+				FAFA04B32610026D008D3E8F /* explosion-small.png */,
+				FAFA04B42610026D008D3E8F /* left-arrow-unit.png */,
+				FAFA04B52610026D008D3E8F /* InstructionButton.png */,
+				FAFA04B62610026D008D3E8F /* PlayButton.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		FAFA04A52610026D008D3E8F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FAFA04A62610026D008D3E8F /* spaceinvaders-background.mp3 */,
+				FAFA04A72610026D008D3E8F /* artillery2.m4a */,
+				FAFA04A82610026D008D3E8F /* crash.mp3 */,
+				FAFA04A92610026D008D3E8F /* invaderkilled.wav */,
+				FAFA04AA2610026D008D3E8F /* crash.caf */,
+				FAFA04AB2610026D008D3E8F /* fastinvader1.wav */,
+				FAFA04AC2610026D008D3E8F /* scream.mp3 */,
+				FAFA04AD2610026D008D3E8F /* fastinvader3.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,10 +337,38 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAFA04C42610026D008D3E8F /* crash.mp3 in Resources */,
+				FAFA04C92610026D008D3E8F /* fastinvader3.wav in Resources */,
+				FAFA04BB2610026D008D3E8F /* space-invader-small.png in Resources */,
+				FAFA04CF2610026D008D3E8F /* explosion-small.png in Resources */,
+				FAFA04CA2610026D008D3E8F /* bullet-small.jpeg in Resources */,
+				FAFA04B92610026D008D3E8F /* Spaceship.png in Resources */,
 				FAFA046C260FE80E008D3E8F /* Main.storyboard in Resources */,
 				FAFA0463260FE80E008D3E8F /* GameScene.sks in Resources */,
+				FAFA04C82610026D008D3E8F /* scream.mp3 in Resources */,
 				FAFA046E260FE80F008D3E8F /* Assets.xcassets in Resources */,
+				FAFA04D02610026D008D3E8F /* left-arrow-unit.png in Resources */,
+				FAFA04D12610026D008D3E8F /* InstructionButton.png in Resources */,
+				FAFA04C12610026D008D3E8F /* StopMusic.png in Resources */,
+				FAFA04C52610026D008D3E8F /* invaderkilled.wav in Resources */,
+				FAFA04CC2610026D008D3E8F /* bullet-unit.jpeg in Resources */,
+				FAFA04BC2610026D008D3E8F /* defenderBullet2.png in Resources */,
 				FAFA0465260FE80E008D3E8F /* Actions.sks in Resources */,
+				FAFA04C62610026D008D3E8F /* crash.caf in Resources */,
+				FAFA04C32610026D008D3E8F /* artillery2.m4a in Resources */,
+				FAFA04D22610026D008D3E8F /* PlayButton.png in Resources */,
+				FAFA04BD2610026D008D3E8F /* shelter2.png in Resources */,
+				FAFA04C02610026D008D3E8F /* goBack.png in Resources */,
+				FAFA04BE2610026D008D3E8F /* right-arrow.png in Resources */,
+				FAFA04C72610026D008D3E8F /* fastinvader1.wav in Resources */,
+				FAFA04B82610026D008D3E8F /* scream.png in Resources */,
+				FAFA04BF2610026D008D3E8F /* rock.png in Resources */,
+				FAFA04CB2610026D008D3E8F /* PlayMusic.png in Resources */,
+				FAFA04CE2610026D008D3E8F /* defender2.png in Resources */,
+				FAFA04B72610026D008D3E8F /* left-arrow.png in Resources */,
+				FAFA04CD2610026D008D3E8F /* right-arrow-unit.png in Resources */,
+				FAFA04BA2610026D008D3E8F /* bullet.jpeg in Resources */,
+				FAFA04C22610026D008D3E8F /* spaceinvaders-background.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFA0467260FE80E008D3E8F /* GameScene.swift in Sources */,
+				FAFA049526100196008D3E8F /* PhysicsCategory.swift in Sources */,
 				FAFA0469260FE80E008D3E8F /* GameViewController.swift in Sources */,
 				FAFA0461260FE80E008D3E8F /* AppDelegate.swift in Sources */,
 			);
